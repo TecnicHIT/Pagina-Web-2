@@ -1,0 +1,227 @@
+#bs-example-navbar-collapse-1 {
+	background-color: grey;
+	padding-right: 25px;
+}
+
+.navbar-header {
+	width: 25%;
+	color: white;
+}
+
+.navbar-header h5 {
+	top: 15px;
+	left: 15px;
+}
+
+.navbar-right{
+	width: 45%;
+	text-align: right;
+}
+
+#bs-example-navbar-collapse-1 ul a{
+	color: white;
+}
+
+#bs-example-navbar-collapse-1 ul a:active{
+	color: cyan;
+	background-color: black;
+}
+
+.Activo {
+	background-color: black;
+	color: cyan;
+}
+
+.MainNavObject li a{
+	color: white;
+}
+
+.dropdown-menu li a{
+	color: black;
+	text-decoration: none;
+	padding: 3px 20px;
+}
+
+.navbar-toggle {
+	float: right;
+}
+
+.navbar-brand a{
+	color: white;
+}
+
+#custom-bootstrap-menu {
+	margin-bottom: 0px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: white;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(74, 73, 73, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(74, 73, 73, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: cyan;
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(58, 182, 224, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #4a4949;
+}
+
+.MainIMG {
+	background: url("img/min.jpg");
+	height: 450px;
+	background-size: cover;
+}
+
+.MainIMG img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+
+}
+
+
+.Presentacion {
+	margin-top: 50px;
+}
+
+.Title {
+	color: cyan;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+.QuienesSomos {
+  float: left;
+}
+
+.QuienesSomos p {
+
+}
+
+.NuestroOrigen {
+  float: left;
+}
+
+.NuestroOrigen p {
+  text-align: left;
+}
+
+.AQueNosDedicamos {
+  float: left;
+}
+
+.AQueNosDedicamos p {
+  text-align: left;
+}
+
+.FeaturedWork { 
+	margin-top: 150px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.Gallery div img {
+	padding: 0px;
+	margin: 0px;
+}
+
+.ImageBubbles {
+	margin-top: 50px;
+	text-align: center;
+	height: 250px;
+}
+.ImageBubbles p {
+	padding-top: 25px;
+}
+
+.TryMeImatge {
+	background-image: url("img/tablet.png");
+	height: 500px;
+	background-size: 34%;
+	background-repeat: no-repeat;
+	background-color: grey;
+	text-align: left;
+}
+
+.TryMeImatgeText {
+	padding-top: 45px;
+	padding-left: 750px;
+	color: white;
+	text-align: left;
+}
+
+
+.TryMeImatgeText p {
+	width: 50%;
+
+}
+
+.TryMeImatge-xs {
+	height: 500px;
+}
+
+.RandomNumbers {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.RandomNumbers h3 {
+	font-weight: bold;
+}
+
+.RandomNumbers p {
+	color: cyan;
+}
+
+.Footer {
+	margin-top: 100px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: black;
+	color: white;
+}
+
+.FutureDiv {
+  display: inline-block;
+  float: right;
+}
+
+.FutureImg {
+  left: 10px;
+  right: 10px;
+  display: inline-block;
+  float: center;
+  background-color: cyan;
+  border: 1px solid grey;
+  height: 300px;
+  width: 450px;
+  margin-bottom: 100px;
+}
