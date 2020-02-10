@@ -225,3 +225,22 @@
   width: 450px;
   margin-bottom: 100px;
 }
+
+.Support {
+	display: flex;
+	justify-content: center;
+}
+
+.SubSupport {
+	display: block;
+	margin: auto;
+	height: 350px;
+	border: 1px solid lightgrey;
+	border-radius: 15px;
+}
+
+.SupportIcons {
+	position: relative;
+	width: auto;
+	height: 100px;
+}
