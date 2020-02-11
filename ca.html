@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exercici05</title>
+    <title>HitSystems</title>
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/FavIcon.png">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/Animations.css">
 </head>
 <body>
 
 <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation"> <!-- Menu -->
     <div class="container-fluid">
         <div class="navbar-header"><img id="Logo" src="img/Logo Hit Sistems 2.png">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Mostrar menu</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder">
@@ -23,30 +25,18 @@
                 <li><a href="">Inici</a>
                 </li>
                 <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Que oferim<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Idioma<span class="caret"></span></a>
                      <ul class="dropdown-menu">
-                        <li><h5><a href="es.html">Castellano</a><h5></li>
+                        <li><h5><a href="es.html">Castella</a><h5></li>
                         <li role="separator" class="divider"></li>    
-                        <li><h5><a href="ca.html">Catalan</a></h5></li>
-                        
+                        <li><h5><a href="ca.html">Catala</a></h5></li>
                     </ul>
-                </li>
-               <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN <span class="caret"></span></a>
-                     <ul class="dropdown-menu">
-                        <li><h6 class="dropdown-header">Options</h6></li>
-                        <li><h5><a href="#">Option1</a><h5></li>
-                        <li><h5><a href="#">Option2</a></h5></li>
-                        <li><h5><a href="#">Option3</a></h5></li>
-                        <li role="separator" class="divider"></li>
-                        <li><h6 class="dropdown-header">Links</h6></li>
-                        <li><h5><a href="#">Separated link1</a></h5></li>
-                        <li><h5><a href="#">Separated link2</a></h5></li>
-                    </ul>
-                </li>
-                <li><a href="#">CONTACT</a>
-                </li>
-                <li><a href="#">MORE</a>
                 </li>
             </ul>
         </div>
@@ -55,185 +45,174 @@
 <div class="MainIMG">
     <img src="img/MainImg.jpg">
 </div>
-<div class="Tasks container-fluid visible-lg visible-md"> <!-- Tasks -->
-    <div class="Task1 col-md-3">
-        <h3 class="TitleTasks">TASK 1</h3>
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-     consequat.   
+<div class="Presentacion container-fluid visible-lg visible-md">
+<div class="row">
+    <div class="QuienesSomos fadeInLeftBig animated col-md-3">
+        <h3 class="Title">Qui sóm?</h3>
+    <p>Som una empresa lider en la Gestió Informatica de l'industria Fornera.</p>  
     </div>
-    <div class="Task2 col-md-3">
-        <h3 class="TitleTasks">TASK 2</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+    <div class="NuestroOrigen fadeInLeftBig animated col-md-3">
+        <h3 class="Title">El nostre origen</h3>
+    <p>HIT Systems S.L. es una empresa que va surgir d'un proyecte concret a partir de les necessitats identificades als forns de pa. Ya fan 10 anys d'aquell proyecte i a l'actualitat esta implementat amb exit a més de 100 empreses a Espanya.</p>
     </div>
-    <div class="Task3 col-md-3">
-        <h3 class="TitleTasks">TASK 3</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+    <div class="AQueNosDedicamos fadeInLeftBig animated col-md-3">
+        <h3 class="Title">A que ens dediquem?</h3>
+    <p>Principalment a la Gestió Integra de l'Industria Alimentaria: tenda, obrador, emmagatzem, facturació, transport, enviaments, traçabilitat, APPCC i compres; abarcant també:  </p>
+    <p> - Control del personal: registre d'access mitjant la detecció de empremta digital.
+        <br> - Seguiment de la flota de vehicles: registre i visualització de mapes.
+         <br> - Implantació de la normativa vigent a lo que l'Alimentació i la Qualitat es refereix.
+          <br> - Gestió de residencies geriatriques.
+           <br> (entre altres).</p>
     </div>
-    <br>
-    <br>
-</div>
-<div class="Tasks container-fluid visible-sm">
-    <div class="Task1 col-md-3">
-        <h3 class="TitleTasks">TASK 1</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.  
-    </div>
-    <br>
-    <br>
-    <div class="Task2 col-md-3">
-        <h3 class="TitleTasks">TASK 2</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
-    </div>
-    <br>
-    <br>
-    <div class="Task3 col-md-3">
-        <h3 class="TitleTasks">TASK 3</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+    <div class="FutureImg fadeInLeftBig animated col-md-3">
+        Future Img
     </div>
     <br>
     <br>
 </div>
-<div class="Tasks container-fluid visible-xs">
-    <div class="Task1 col-md-3">
-        <h3 class="TitleTasks">TASK 1</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+<div class="row">    
+    <br>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra filosofia</h3>
+    <p>La nostra filosofia esta bsada en l'utilització de l'innovació, l'experiencia i la tecnologia. Aquestes caracteristiques ens han permes diferencia els nostres productes dels que s'ofereixen a la resta del sector.</p>
     </div>
-    <br>
-    <br>
-    <div class="Task2 col-md-3">
-        <h3 class="TitleTasks">TASK 2</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">Els nostres objectius: </h3>
+    <p>- Brindar un servei integral que sistematitzi i correlacioni les tarees de les diferentes àrees a les que es divideix l'empresa.<br>
+        - L'eliminació dels controls i llistats manuals.<br>
+        - Permetre l'acces a dades e informació fiable, concreta i util a temps real per sobre qualsevol item o process efectuat a l'interior de l'empressa.<br>
+        - El control eficient de les tendes i l'obrador, el qual passa per el total control de les ventes, els processos productius i el personal.</p>
     </div>
-    <br>
-    <br>
-    <div class="Task3 col-md-3">
-        <h3 class="TitleTasks">TASK 3</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra missió: </h3>
+    <p>La Gestió informatica, eficient e integral Alimentaria, que cubreix totes les àrees d'operació de l'empressa creant així un SISTEMA sinergic mitjançant el control i l'enllaç de tots els punts de la cadena productiva, desde els Prooveidors de materia prima fins al servei al client.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra visió:</h3>
+    <p>L'utilització optima de les noves tecnologies i fiabilitzar les tarees i operacions dins de l'industria alimentaria.</p>
+    </div>
+</div>
+</div>
+<div class="Presentacion container-fluid visible-sm">
+<div class="row">
+    <div class="QuienesSomos fadeInLeftBig animated col-sm-3">
+        <h3 class="Title">Qui sóm?</h3>
+    <p>Som una empresa lider en la Gestió Informatica de l'industria Fornera.</p> 
+    </div>
+    <div class="NuestroOrigen fadeInLeftBig animated col-sm-3">
+        <h3 class="Title">El nostre origen</h3>
+    <p>HIT Systems S.L. es una empresa que va surgir d'un proyecte concret a partir de les necessitats identificades als forns de pa. Ya fan 10 anys d'aquell proyecte i a l'actualitat esta implementat amb exit a més de 100 empreses a Espanya.</p>
+    </div>
+    <div class="AQueNosDedicamos fadeInLeftBig animated col-sm-3">
+    <h3 class="Title">A que ens dediquem?</h3>
+    <p>Principalment a la Gestió Integra de l'Industria Alimentaria: tenda, obrador, emmagatzem, facturació, transport, enviaments, traçabilitat, APPCC i compres; abarcant també:  </p>
+    <p> - Control del personal: registre d'access mitjant la detecció de empremta digital.
+        <br> - Seguiment de la flota de vehicles: registre i visualització de mapes.
+         <br> - Implantació de la normativa vigent a lo que l'Alimentació i la Qualitat es refereix.
+          <br> - Gestió de residencies geriatriques.
+           <br> (entre altres).</p>
     </div>
     <br>
     <br>
 </div>
-<div class="FeaturedWork"> <!-- Galeria -->
-    <h2>FEATURED WORK</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="row">    
+    <br>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra filosofia</h3>
+    <p>La nostra filosofia esta bsada en l'utilització de l'innovació, l'experiencia i la tecnologia. Aquestes caracteristiques ens han permes diferencia els nostres productes dels que s'ofereixen a la resta del sector.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">Els nostres objectius: </h3>
+    <p>- Brindar un servei integral que sistematitzi i correlacioni les tarees de les diferentes àrees a les que es divideix l'empresa.<br>
+        - L'eliminació dels controls i llistats manuals.<br>
+        - Permetre l'acces a dades e informació fiable, concreta i util a temps real per sobre qualsevol item o process efectuat a l'interior de l'empressa.<br>
+        - El control eficient de les tendes i l'obrador, el qual passa per el total control de les ventes, els processos productius i el personal.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra missió: </h3>
+    <p>La Gestió informatica, eficient e integral Alimentaria, que cubreix totes les àrees d'operació de l'empressa creant així un SISTEMA sinergic mitjançant el control i l'enllaç de tots els punts de la cadena productiva, desde els Prooveidors de materia prima fins al servei al client.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra visió:</h3>
+    <p>L'utilització optima de les noves tecnologies i fiabilitzar les tarees i operacions dins de l'industria alimentaria.</p>   
+    </div>
+</div>    
 </div>
-<div class="Galery container-fluid visible-lg visible-md">
-    <div class="col-md-4">
-        <img class="img-responsive" src="img/photo1.jpg">
-    </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo2.jpg">
-    </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo3.jpg">
-    </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo4.jpg">
-    </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo5.jpg">
+<div class="Presentacion container-fluid visible-xs">
+<div class="row">
+    <div class="QuienesSomos fadeInLeftBig animated col-xs-12">
+        <h3 class="Title">Qui sóm?</h3>
+    <p>Som una empresa lider en la Gestió Informatica de l'industria Fornera.</p>
     </div>
     <br>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo6.jpg">
+    <br>
+    <div class="NuestroOrigen fadeInLeftBig animated col-xs-12">
+        <h3 class="Title">El nostre origen</h3>
+    <p>HIT Systems S.L. es una empresa que va surgir d'un proyecte concret a partir de les necessitats identificades als forns de pa. Ya fan 10 anys d'aquell proyecte i a l'actualitat esta implementat amb exit a més de 100 empreses a Espanya.</p>
     </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo7.jpg">
+    <br>
+    <br>
+    <div class="AQueNosDedicamos fadeInLeftBig animated col-xs-12">
+    <h3 class="Title">A que ens dediquem?</h3>
+    <p>Principalment a la Gestió Integra de l'Industria Alimentaria: tenda, obrador, emmagatzem, facturació, transport, enviaments, traçabilitat, APPCC i compres; abarcant també:  </p>
+    <p> - Control del personal: registre d'access mitjant la detecció de empremta digital.
+        <br> - Seguiment de la flota de vehicles: registre i visualització de mapes.
+         <br> - Implantació de la normativa vigent a lo que l'Alimentació i la Qualitat es refereix.
+          <br> - Gestió de residencies geriatriques.
+           <br> (entre altres).</p>
     </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo8.jpg">
-    </div>
-    <div class="col-md-2">
-        <img class="img-responsive" src="img/photo9.jpg">
-    </div>
-    <div class="col-md-4">
-        <img class="img-responsive" src="img/photo10.jpg">
-    </div>
-</div>
-<div class="ImageBubbles"> <!-- Imatges circulars -->
-    <div class="col-md-3">
-        <img class="img-circle" src="img/circle1.jpg">
-        <p>Lorem ipsum dolor</p>
-    </div>
-    <div class="col-md-3">
-        <img class="img-circle" src="img/circle2.jpg">
-        <p>Lorem ipsum dolor</p>
-    </div>
-    <div class="col-md-3">
-        <img class="img-circle" src="img/circle3.jpg">
-        <p>Lorem ipsum dolor</p>
-    </div>
-    <div class="col-md-3">
-        <img class="img-circle" src="img/circle4.jpg">
-        <p>Lorem ipsum dolor</p>
+    <div class="FutureImg fadeInLeftBig animated col-md-12">
+        
     </div>
 </div>
-<div class="TryMeImatge hidden-xs"> <!-- TryMeImatge -->
-    <div class="TryMeImatgeText">
-        <h2>TRY ME IN XS</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+<div class="row">    
+    <br>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra filosofia</h3>
+    <p>La nostra filosofia esta bsada en l'utilització de l'innovació, l'experiencia i la tecnologia. Aquestes caracteristiques ens han permes diferencia els nostres productes dels que s'ofereixen a la resta del sector.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">Els nostres objectius: </h3>
+    <p>- Brindar un servei integral que sistematitzi i correlacioni les tarees de les diferentes àrees a les que es divideix l'empresa.<br>
+        - L'eliminació dels controls i llistats manuals.<br>
+        - Permetre l'acces a dades e informació fiable, concreta i util a temps real per sobre qualsevol item o process efectuat a l'interior de l'empressa.<br>
+        - El control eficient de les tendes i l'obrador, el qual passa per el total control de les ventes, els processos productius i el personal.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra missió: </h3>
+    <p>La Gestió informatica, eficient e integral Alimentaria, que cubreix totes les àrees d'operació de l'empressa creant així un SISTEMA sinergic mitjançant el control i l'enllaç de tots els punts de la cadena productiva, desde els Prooveidors de materia prima fins al servei al client.</p>
+    </div>
+    <div class="FutureDiv fadeInRightBig animated col-md-3">
+    <h3 class="Title">La nostra visió:</h3>
+    <p>L'utilització optima de les noves tecnologies i fiabilitzar les tarees i operacions dins de l'industria alimentaria.</p>
     </div>
 </div>
-<div class="TryMeImatge-xs visible-xs">
-    <button class="btn default-btn">
-        Push ME
-    </button>
 </div>
-<div class="RandomNumbers container-fluid">
-    <div class="col-md-3">
-        <h3>455</h3>
-        <p>Lorem dolor sit.</p>
+<div class="Support container-fluid">
+    <div class="SubSupport col-md-3">
+        <img class="SupportIcons" src="img/PhoneLogo.png">
+        <h3>Truca'ns</h3>
+        <p>Línia oberta des de les 09:00 fins a les 17:00</p>
+        <p>El nostre número de telefon és: <a href="tel:+937161010">937161010</a></p>
     </div>
-    <div class="col-md-3">
-        <h3>1991</h3>
-        <p>ipsum</p>
-    </div>
-    <div class="col-md-3">
-        <h3>806</h3>
-        <p>dolor</p>
-    </div>
-    <div class="col-md-3">
-        <h3>923</h3>
-        <p>sit</p>
+    <div class="SubSupport col-md-3">
+
+        <img class="SupportIcons" src="img/Localizacion2.png">
+        <h3>Localització</h3>
+        <p>Actualment estem localitzats a l'Avenida Francesc Macià 30</p>
+        <p>Torre A 1º 3ª</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.7888458145108!2d2.0990655805088543!3d41.55216894116573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a494fb2b4ae5ed%3A0x3b2b0eb726ef62f4!2sAv.%20de%20Francesc%20Maci%C3%A0%2C%2030%2C%2008208%20Sabadell%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1581354062223!5m2!1ses!2ses" width="400" height="100" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
+</div>
+    <div class="SubSupport col-md-3">
+        <img class="SupportIcons" src="img/Email.png">
+        <h3>Correu Electronic</h3>
+        <p>Per a més informació contacti amb nosaltres mitjançant el correu electronic.</p>
+        <p>El nostre correu electronic: administracion@hitsystems.es</p>
     </div>
 </div>
-<div class="Footer"> <!-- Pie de pagina -->
+<div class="Footer">
     <p>Joel Blanco - © 2018</p>
 </div>
 </body>
-</html>
+</html> 

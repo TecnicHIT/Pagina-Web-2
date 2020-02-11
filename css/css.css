@@ -227,6 +227,7 @@
 }
 
 .Support {
+	margin-top: 150px;
 	display: flex;
 	justify-content: center;
 }
@@ -235,12 +236,11 @@
 	display: block;
 	margin: auto;
 	height: 350px;
-	border: 1px solid lightgrey;
 	border-radius: 15px;
 }
 
 .SupportIcons {
-	position: relative;
+	padding-left: 155px;
 	width: auto;
 	height: 100px;
 }
